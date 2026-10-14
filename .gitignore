@@ -1,0 +1,14 @@
+# Local and credential-bearing configuration
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+*token*
+auth.json
+*.pem
+*.key
+known_hosts
+.DS_Store
+__pycache__/
+*.py[cod]
