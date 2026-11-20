@@ -12,6 +12,7 @@ A collection of user-created Pi-compatible agent skills.
 | `gmail-smtp-send` | Send polished email through a privately configured Gmail SMTP account. |
 | `openrouter-image-generator` | Generate images through an authorized OpenRouter account after user approval. |
 | `pi-web-customizations` | Safely port Pi Web theme and branding changes. |
+| `pi-web-upgrade` | Upgrade pi and pi-web, re-apply the logo, and restart the pi-web service. |
 | `travel-subsidy-calculator` | Calculate travel airfare subsidy from fare, discount, and rate. |
 | `weekly-report` | Draft weekly reports from a user-provided template and work notes. |
 | `workspace-pin` | Pin and unpin items in a privately configured Workspace portal. |
