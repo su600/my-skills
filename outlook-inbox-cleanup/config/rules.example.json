@@ -1,0 +1,8 @@
+{
+  "_comment": "Outlook 低价值邮件清理规则示例。复制为 rules.json 后按自己的邮箱增删。promo_patterns / notify_patterns 为域名或地址子串；keep_senders 为精确地址（优先级最高）；keep_subject_patterns 用于从广告发件人中救回安全/交易邮件。",
+  "promo_patterns": ["newsletter.example.com", "promo.example.org"],
+  "notify_patterns": ["notice.example.com"],
+  "keep_senders": ["security@bank.example.com"],
+  "keep_subject_patterns": ["Password Reset", "找回登录密码"],
+  "notify_older_than_days": 90
+}
